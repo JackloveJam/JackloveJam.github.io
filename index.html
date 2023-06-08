@@ -1,0 +1,762 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+        <meta name="format-detection" content="telephone=yes"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="layoutmode" content="standard"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="renderer" content="webkit"/>
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
+        <link rel="Bookmark" href="/favicon.png"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <script type="text/javascript">
+            (function() {
+                var ie = /\b(?!-)MSIE\s+[1-8]\b/i.test(navigator.userAgent);
+                if (ie) {
+                    location.replace('/browser-tip')
+                }
+            }
+            )()
+        </script>
+        <title>Home Page</title>
+        <link href="/public/fontico/iconfont.css" rel="stylesheet" type="text/css"/>
+        <link href="/css?cs=vstatic%2Fcss%2Fapp.css%2Cinner%2Fglobal.css" rel="stylesheet" type="text/css"/>
+        <link href="https://static.eznetonline.com/webquick/public/bootstrap/index.css" rel="stylesheet" type="text/css"/>
+        <link href="https://unpkg.com/element-ui@2.15.13/lib/theme-chalk/index.css" rel="stylesheet" type="text/css"/>
+        <link href="https://static.eznetonline.com/webquick/public/inner/animate.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/??vue.min.js,jq/core.js?v=16842908"></script>
+        <style id="gstyles" type="text/css">
+            .Jso-L-Title {
+                font-size: 4rem;
+                line-height: calc(1.5 * (3rem + (4 - 3) * ((100vw - 32rem) / (102 - 32))))!important;
+            }
+
+            .Jso-M-Title {
+                font-size: 3rem;
+                line-height: calc(1.5 * (1.9rem + (3 - 1.9) * ((100vw - 32rem) / (102 - 32))))!important;
+            }
+
+            .Jso-S-Title {
+                font-size: 1.6rem;
+                line-height: calc(1.5 * (1.5rem + (1.6 - 1.5) * ((100vw - 32rem) / (102 - 32))))!important;
+            }
+
+            .Jso-Navigation-Menu {
+                font-size: 1.4rem;
+            }
+
+            .Jso-Text {
+                font-size: 1.4rem;
+                line-height: calc(1.5 * (1.4rem + (1.4 - 1.4) * ((100vw - 32rem) / (102 - 32))))!important;
+            }
+
+            .Jso-Btn {
+                font-size: 1.4rem;
+                line-height: calc(1.5 * (1.2rem + (1.4 - 1.2) * ((100vw - 32rem) / (102 - 32))))!important;
+            }
+
+            .Jso-F-Text {
+                font-size: 1.2rem;
+                line-height: calc(1.5 * (1.2rem + (1.2 - 1.2) * ((100vw - 32rem) / (102 - 32))))!important;
+            }
+
+            @media screen and (max-width: 1024px) {
+                .Jso-L-Title p,.Jso-L-Title p span,.Jso-L-Title {
+                    font-size: calc(3rem + (4 - 3) * ((100vw - 32rem) / (102 - 32)))!important;
+                    line-height: calc(1.5 * (3rem + (4 - 3) * ((100vw - 32rem) / (102 - 32))))!important;
+                }
+
+                .Jso-M-Title p,.Jso-M-Title p span,.Jso-M-Title {
+                    font-size: calc(1.9rem + (3 - 1.9) * ((100vw - 32rem) / (102 - 32)))!important;
+                    line-height: calc(1.5 * (1.9rem + (3 - 1.9) * ((100vw - 32rem) / (102 - 32))))!important;
+                }
+
+                .Jso-S-Title p,.Jso-S-Title p span,.Jso-S-Title {
+                    font-size: calc(1.5rem + (1.6 - 1.5) * ((100vw - 32rem) / (102 - 32)))!important;
+                    line-height: calc(1.5 * (1.5rem + (1.6 - 1.5) * ((100vw - 32rem) / (102 - 32))))!important;
+                }
+
+                .Jso-Navigation-Menu p,.Jso-Navigation-Menu p span,.Jso-Navigation-Menu {
+                    font-size: calc(1.3rem + (1.4 - 1.3) * ((100vw - 32rem) / (102 - 32)))!important;
+                }
+
+                .Jso-Text p,.Jso-Text p span,.Jso-Text {
+                    font-size: calc(1.4rem + (1.4 - 1.4) * ((100vw - 32rem) / (102 - 32)))!important;
+                    line-height: calc(1.5 * (1.4rem + (1.4 - 1.4) * ((100vw - 32rem) / (102 - 32))))!important;
+                }
+
+                .Jso-Btn p,.Jso-Btn p span,.Jso-Btn {
+                    font-size: calc(1.2rem + (1.4 - 1.2) * ((100vw - 32rem) / (102 - 32)))!important;
+                    line-height: calc(1.5 * (1.2rem + (1.4 - 1.2) * ((100vw - 32rem) / (102 - 32))))!important;
+                }
+
+                .Jso-F-Text p,.Jso-F-Text p span,.Jso-F-Text {
+                    font-size: calc(1.2rem + (1.2 - 1.2) * ((100vw - 32rem) / (102 - 32)))!important;
+                    line-height: calc(1.5 * (1.2rem + (1.2 - 1.2) * ((100vw - 32rem) / (102 - 32))))!important;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+            (function(W) {
+                W.pversion = '1685949963';
+                W.ispreview = Boolean('');
+                W.iseditor = Boolean('');
+                W.isagent = Boolean('');
+                W.lang = 'en-us';
+                W.domain = 'travel-006';
+                W.apquery = '';
+                W.curpageid = 'page23';
+                W.cxtmenu = '';
+                W.uilang = 'en-us';
+                W.adminhost = '/';
+                W.apihost = 'https://travel-006.site0.wopop.com/';
+                W.statichost = 'https://static.eznetonline.com/webquick/public';
+                W.xtoken = '17100af402b512ef80b9b7e09b72216f537b7671';
+                W.fstyles = '';
+                W.gcolors = {
+                    "Jso-Main-Col": "#008aff",
+                    "Jso-Assistance-Col1": "#333",
+                    "Jso-Assistance-Col2": "#f7f7f7",
+                    "Jso-Assistance-Col3": "#fff",
+                    "Jso-Assistance-Col4": "transparent",
+                    "Jso-Assistance-Col5": "#008aff",
+                    "Jso-Assistance-Col6": "#4C342A",
+                    "Jso-Assistance-Col7": "#FE500C"
+                };
+                W.gcolors_setted = Boolean('');
+                W.scroll_animation = '0';
+                W.scroll_to_top = '0';
+                W.pagedata = JSON.stringify({
+                    "pid": "23",
+                    "data": [{
+                        "id": "layerO235OUGK0RIXV26NGBIAL9CEVNE9TH8A",
+                        "pid": "23",
+                        "i_order": "1",
+                        "pversion": 16825734,
+                        "type": "navbar9",
+                        "isplate": "",
+                        "options": {
+                            "animation": [],
+                            "logo": "http:\/\/travel-006-pic6.eznetonline.com\/upload\/jgnn11112s.png?_t=750394",
+                            "showlogo": "1",
+                            "showlang": "0",
+                            "snap": "0",
+                            "istop": "0",
+                            "scrollhide": "0",
+                            "mbstyle": "1",
+                            "picattr": {
+                                "animation": [],
+                                "alt": "",
+                                "linkattr": [],
+                                "title": ""
+                            }
+                        },
+                        "styles": {
+                            "img-height": 50,
+                            "color": "#333",
+                            "bcolor": "#f5f5f5",
+                            "menucolor": "#fff",
+                            "btnclose": "#999",
+                            "btnopen": "#fff",
+                            "activecolor": "#fff",
+                            "activebcolor": "#1ebdd9",
+                            "activebgcolor": "#1ebdd9",
+                            "margin-top": 0,
+                            "margin-bottom": 0,
+                            "layerbg": {
+                                "color": "#0b3950",
+                                "image": "\/public\/vplugin\/navbar9\/assets\/672f136ec9fecf5379e75d5f4190d65d.jpg",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "0",
+                                "showbgvideo": "0"
+                            },
+                            "hovercolor": "#fff",
+                            "hoverbcolor": "#1ebdd9",
+                            "hoverbgcolor": "#1ebdd9"
+                        }
+                    }, {
+                        "id": "layerDADS5V5JDDKTPGSS88PT0XQBN40JYVLZ",
+                        "pid": "23",
+                        "i_order": "2",
+                        "pversion": 16758192,
+                        "type": "graphic7",
+                        "isplate": "",
+                        "options": {
+                            "showtitle": "0",
+                            "showsubtitle": "0",
+                            "animation": [],
+                            "title-animation": [],
+                            "subtitle-animation": [],
+                            "title": "",
+                            "subtitle": "",
+                            "items": [{
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/b5ya.jpg",
+                                "desc1": "<p><strong><span style=\"color: #ffffff;\">The heart wants what the body wants<\/span><\/strong><\/p>",
+                                "desc2": "<p><span style=\"color: #ffffff;\">All the words here are for demonstration purposes.<\/span><\/p>",
+                                "desc3": "",
+                                "desc1-animation": [],
+                                "desc2-animation": [],
+                                "desc3-animation": [],
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }],
+                            "showitemtext1": "1",
+                            "showitemtext2": "1",
+                            "showitemtext3": "1"
+                        },
+                        "styles": {
+                            "jso_M_Title": "Jso-M-Title",
+                            "jso_M_Title1": "Jso-L-Title",
+                            "jso_S_Title": "Jso-M-Title",
+                            "jso_Text": "Jso-Text",
+                            "jso_F_Text": "Jso-Btn",
+                            "margin-top": 60,
+                            "margin-bottom": 60,
+                            "subtitle_mtop": 30,
+                            "subtitle_mbottom": 80,
+                            "layerbg": {
+                                "color": "#0b3950",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            }
+                        }
+                    }, {
+                        "id": "layer5657MMDXNK8HT2UL6PN5KV6RORI3A0WR",
+                        "pid": "23",
+                        "i_order": "3",
+                        "pversion": 16758192,
+                        "type": "graphic4",
+                        "isplate": "",
+                        "options": {
+                            "aclor": "Jso-Assistance-Col2",
+                            "showtitle": "1",
+                            "showsubtitle": "0",
+                            "animation": {
+                                "animation": "slideInRight",
+                                "delay": "",
+                                "duration": "1.5s",
+                                "anitype": "default"
+                            },
+                            "title-animation": [],
+                            "subtitle-animation": [],
+                            "desc-animation": [],
+                            "loop-animation": [],
+                            "title": "",
+                            "subtitle": "<p><strong><span style=\"color: #999999;\">OUR ADVANTAGE<\/span><\/strong><\/p>\n<p>&nbsp;<\/p>",
+                            "title_desc": "<p>&nbsp;&nbsp;<\/p>",
+                            "items": [{
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/1.png",
+                                "name": "",
+                                "subname": "",
+                                "desc": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }, {
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/2.png",
+                                "name": "",
+                                "subname": "",
+                                "desc": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }, {
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/3.png",
+                                "name": "",
+                                "subname": "",
+                                "desc": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }, {
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/4.png",
+                                "name": "",
+                                "subname": "",
+                                "desc": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }],
+                            "morebtn-show": "0",
+                            "btntxt": "",
+                            "showitemtitle": "1",
+                            "showitemsubtitle": "1",
+                            "showitemtext": "1"
+                        },
+                        "styles": {
+                            "jso_M_Title": "Jso-M-Title",
+                            "jso_S_Title": "Jso-S-Title",
+                            "jso_S_Title1": "Jso-S-Title",
+                            "jso_Text": "Jso-Text",
+                            "jso_Text1": "Jso-Text",
+                            "jso_Btn": "Jso-Btn",
+                            "jso_F_Text": "Jso-Text",
+                            "margin-top": 60,
+                            "margin-bottom": 58,
+                            "item_background": "#fff",
+                            "title-margin": 0,
+                            "uptitle-margin": 26,
+                            "subtitle-margin": 50,
+                            "button-bgcolor": "transparent",
+                            "button-bcolor": "#000000",
+                            "button-bwidth": 1,
+                            "button-bradius": 2,
+                            "layerbg": {
+                                "color": "#edfbfc",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            },
+                            "button-hover-tcolor": "",
+                            "button-tcolor": ""
+                        }
+                    }, {
+                        "id": "layerFIVBTWW2NTFCHRAMIP4I1DE1PHFH01XK",
+                        "pid": "23",
+                        "i_order": "4",
+                        "pversion": 16503522,
+                        "type": "aboutus9",
+                        "isplate": "",
+                        "options": {
+                            "align": "0",
+                            "animation": {
+                                "animation": "slideInLeft",
+                                "delay": "",
+                                "duration": "1.5s",
+                                "anitype": "default"
+                            },
+                            "title-animation": [],
+                            "desc-animation": [],
+                            "adornbg-show": "1",
+                            "adorn-show": "1",
+                            "defpic1": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/7.png",
+                            "defpic2": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/6.png",
+                            "defpic3": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/5.png",
+                            "title": "",
+                            "desc": "",
+                            "picattr1": {
+                                "animation": [],
+                                "alt": "",
+                                "linkattr": [],
+                                "title": ""
+                            },
+                            "picattr2": {
+                                "animation": [],
+                                "alt": "",
+                                "linkattr": [],
+                                "title": ""
+                            },
+                            "picattr3": {
+                                "animation": [],
+                                "alt": "",
+                                "linkattr": [],
+                                "title": ""
+                            },
+                            "showtitle": "1",
+                            "showsubtitle": "1"
+                        },
+                        "styles": {
+                            "jso_M_Title": "Jso-M-Title",
+                            "jso_Text": "Jso-Text",
+                            "margin-top": 140,
+                            "margin-bottom": 300,
+                            "adornbg-color": "#edf0f5",
+                            "adornimg-left": "",
+                            "adornimg-right": "",
+                            "layerbg": {
+                                "color": "#fff",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            },
+                            "uptitle-margin": 30,
+                            "subtitle-margin": 0
+                        }
+                    }, {
+                        "id": "layerEA8Y1CMMVC804VPC1YQYO3I9PIS3K9YZ",
+                        "pid": "23",
+                        "i_order": "5",
+                        "pversion": 16776334,
+                        "type": "video3",
+                        "isplate": "",
+                        "options": {
+                            "aclor": "Jso-Assistance-Col4",
+                            "animation": {
+                                "animation": "slideInRight",
+                                "delay": "",
+                                "duration": "1.5s",
+                                "anitype": "default"
+                            },
+                            "title-animation": [],
+                            "subtitle-animation": [],
+                            "desc-animation": [],
+                            "morebtn-animation": [],
+                            "vsrc": "",
+                            "coverimg": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/4.jpg",
+                            "align": "0",
+                            "showtitle": "1",
+                            "showtitle2": "1",
+                            "showsubtitle": "1",
+                            "video-width": "50",
+                            "video-height": "650",
+                            "focus-title": "",
+                            "focus-subtitle": "video",
+                            "focus-text": "",
+                            "morebtn-show": "1",
+                            "btntxt": "",
+                            "showspliter": "1",
+                            "morebtncenter": "0",
+                            "morebtnright": "0"
+                        },
+                        "styles": {
+                            "jso_M_Title": "Jso-M-Title",
+                            "jso_S_Title": "Jso-S-Title",
+                            "jso_Text": "Jso-Text",
+                            "jso_Btn": "Jso-Btn",
+                            "button-bgcolor": "transparent",
+                            "button-bcolor": "#ffffff",
+                            "button-bwidth": 1,
+                            "button-bradius": 0,
+                            "layerbg": {
+                                "color": "#000",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            },
+                            "button-hover-bgcolor": "rgba(0, 0, 0, 0)",
+                            "button-hover-bcolor": "rgb(255, 255, 255)",
+                            "button-hover-tcolor": "",
+                            "button-tcolor": "",
+                            "line-color": "#fff",
+                            "uptitle-margin": 50,
+                            "subtitle-margin": 30
+                        }
+                    }, {
+                        "id": "layer18D3NSEES4LTERNBB2KDP587HPQ2X6ES",
+                        "pid": "23",
+                        "i_order": "6",
+                        "pversion": 16758192,
+                        "type": "graphic1",
+                        "isplate": "",
+                        "options": {
+                            "morebtn-show": "1",
+                            "title-animation": [],
+                            "subtitle-animation": [],
+                            "loop-animation": [],
+                            "title": "",
+                            "subtitle": "<p><span style=\"color: #999999;\"><strong>OUR PROJECTS<\/strong><\/span><span style=\"font-size: inherit.4rem;\">&nbsp;<\/span><\/p>",
+                            "ltpic": "",
+                            "rbpic": "",
+                            "showtitle": "1",
+                            "showsubtitle": "1",
+                            "animation": {
+                                "animation": "fadeInDown",
+                                "delay": "",
+                                "duration": "1.5s",
+                                "anitype": "default"
+                            },
+                            "items": [{
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/1.jpg",
+                                "desc": "",
+                                "btntxt": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }, {
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/2.jpg",
+                                "desc": "",
+                                "btntxt": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }, {
+                                "pic": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/3.jpg",
+                                "desc": "",
+                                "btntxt": "",
+                                "picattr": {
+                                    "alt": "",
+                                    "linkattr": [],
+                                    "title": ""
+                                }
+                            }],
+                            "showitemtitle": "1",
+                            "showborder": "1"
+                        },
+                        "styles": {
+                            "aclor": "Jso-Assistance-Col4",
+                            "jso_M_Title": "Jso-M-Title",
+                            "jso_S_Title": "Jso-S-Title",
+                            "jso_Text": "Jso-S-Title",
+                            "jso_Btn": "Jso-Btn",
+                            "margin-bottom": 50,
+                            "margin-top": 50,
+                            "layerbg": {
+                                "color": "#edfbfc",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            },
+                            "focus-bgcolor": "rgba(30, 189, 217, 0.8)",
+                            "subtitle-margin": 35,
+                            "subtitle-padingtop": 0,
+                            "button-bgcolor": "transparent",
+                            "button-bcolor": "#fff",
+                            "button-bwidth": 1,
+                            "button-bradius": 0,
+                            "jtext": "Jso-S-Title",
+                            "button-hover-bgcolor": "rgba(0, 0, 0, 0)",
+                            "button-hover-bcolor": "rgb(255, 255, 255)",
+                            "button-hover-tcolor": "",
+                            "button-tcolor": "",
+                            "focus-shadow-color": "#cdcdcd",
+                            "border-color": "#fff"
+                        }
+                    }, {
+                        "id": "layerGWUG6ZT2013M0IUSTDP6K6TGEXVJLN8B",
+                        "pid": "23",
+                        "i_order": "7",
+                        "pversion": 16533800,
+                        "type": "news5",
+                        "isplate": "",
+                        "options": {
+                            "animation": {
+                                "animation": "slideInUp",
+                                "delay": "",
+                                "duration": "1.5s",
+                                "anitype": "default"
+                            },
+                            "rows": "3",
+                            "title": "",
+                            "subtitle": "<p><strong><span style=\"color: #999999;\">NEWS CENTWE<\/span><\/strong><\/p>",
+                            "show_title": "1",
+                            "show_subtitle": "1",
+                            "thumb": "https:\/\/travel-006-pic6.eznetonline.com\/upload\/templatefiles\/8.png",
+                            "thumbattr": {
+                                "alt": "",
+                                "linkattr": [],
+                                "title": ""
+                            },
+                            "items": [{
+                                "day": "<p>30<\/p>",
+                                "date": "<p>Jun 2020<\/p>",
+                                "title": "",
+                                "desc": ""
+                            }, {
+                                "day": "<p>30<\/p>",
+                                "date": "<p>Jun 2020<\/p>",
+                                "title": "",
+                                "desc": ""
+                            }, {
+                                "day": "<p>30<\/p>",
+                                "date": "<p>Jun 2020<\/p>",
+                                "title": "",
+                                "desc": ""
+                            }],
+                            "title-animation": [],
+                            "title-animation1": [],
+                            "showitemtitle": "1",
+                            "showitemtext": "1",
+                            "showitemdate": "1",
+                            "showsplit": "1"
+                        },
+                        "styles": {
+                            "margin-top": 60,
+                            "margin-bottom": 60,
+                            "jltitle": "Jso-L-Title",
+                            "jmtitle": "Jso-M-Title",
+                            "jstitle": "Jso-S-Title",
+                            "jtext": "Jso-S-Title",
+                            "jftext": "Jso-F-Text",
+                            "breakline": "#1ebdd9",
+                            "itemdate": {
+                                "bgcolor": "#e5e5e5",
+                                "color": "#333",
+                                "bghcolor": "#1ebdd9",
+                                "hcolor": "#fff"
+                            },
+                            "itemdesc": {
+                                "color": "#a0a0a0",
+                                "hcolor": "#3d3d3d"
+                            },
+                            "layerbg": {
+                                "color": "#fff",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            },
+                            "jso_S_Title1": "Jso-S-Title",
+                            "jso_F_Text": "Jso-Text",
+                            "jso_Text1": "Jso-Text",
+                            "jso_M_Title": "Jso-M-Title",
+                            "jso_S_Title": "Jso-S-Title",
+                            "jso_Text": "Jso-Text",
+                            "uptitle-margin": 17,
+                            "subtitle-margin": 80,
+                            "split-margin": 17,
+                            "splitheight": 4
+                        }
+                    }, {
+                        "id": "layer3D9CC4BE576E535FC8FD369DB1B68E49",
+                        "pid": "24",
+                        "i_order": "8",
+                        "pversion": 16758192,
+                        "type": "footer1",
+                        "isplate": "page24",
+                        "options": {
+                            "Logo-show": "1",
+                            "Ba-show": "1",
+                            "ICP-show": "1",
+                            "Copy-show": "1",
+                            "Links-show": "0",
+                            "title-animation": [],
+                            "desc-animation": [],
+                            "logo": "http:\/\/travel-006-pic6.eznetonline.com\/upload\/jgnn1111da.png?_t=750489",
+                            "text1": "",
+                            "phone": "138-1234-XXXX",
+                            "text2": "\u00a9Copyright 2022 - All Rights Reserved",
+                            "text3": "\u7ca4\u516c\u7f51\u5b89\u5907 00000000000\u53f7",
+                            "text4": "\u7ca4ICP\u59070000000\u53f7",
+                            "linktext": "",
+                            "icons": [{
+                                "src": "https:\/\/static.eznetonline.com\/webquick\/public\/assets\/facebook.png",
+                                "href": "",
+                                "target": "_self",
+                                "title": "Here is the default prompt text",
+                                "type": "link",
+                                "pic": "\/public\/vplugin\/footer1\/assets\/6a0c9be24108b5093fb80ff5cdaa0293.png"
+                            }, {
+                                "src": "https:\/\/static.eznetonline.com\/webquick\/public\/assets\/twitter.png",
+                                "href": "",
+                                "target": "_self",
+                                "title": "Here is the default prompt text",
+                                "type": "link",
+                                "pic": "\/public\/vplugin\/footer1\/assets\/6a0c9be24108b5093fb80ff5cdaa0293.png"
+                            }],
+                            "picattr": {
+                                "animation": [],
+                                "alt": "",
+                                "linkattr": [],
+                                "title": ""
+                            },
+                            "links": []
+                        },
+                        "styles": {
+                            "jso_F_Text": "Jso-F-Text",
+                            "jso_F_Text2": "Jso-F-Text",
+                            "jso_Text": "Jso-Text",
+                            "img-height": 47,
+                            "margin-top": 20,
+                            "margin-bottom": 20,
+                            "artdel3": {
+                                "cssText": [],
+                                "fontsizeCname": "Jso-Text"
+                            },
+                            "linksstyle": {
+                                "cssText": [],
+                                "fontsizeCname": "Jso-Text"
+                            },
+                            "layerbg": {
+                                "color": "#000",
+                                "image": "",
+                                "iscovered": "0",
+                                "overlay": "#000",
+                                "opacity": "0.5",
+                                "video": "",
+                                "showbgcolor": "1",
+                                "showbgimage": "1",
+                                "showbgvideo": "0"
+                            }
+                        }
+                    }],
+                    "pgdata": {
+                        "id": "23",
+                        "bid": "24",
+                        "hadfooter": "1",
+                        "s_params": ""
+                    },
+                    "errcode": 0,
+                    "errmsg": "ok"
+                })
+                W.iswopop = Boolean('1');
+                W.ishwwopop = Boolean('1');
+                W.ulevel = '2';
+                W.isfree = '0';
+                W.account = {};
+            }
+            )(window)
+        </script>
+    </head>
+    <body style="overflow-x: hidden;">
+        <div id="approot">
+            <div class="bootstrap_content">
+                <div class="content_l default_conte" id="bsmain">
+                    <div class="iphone">
+                        <div class="scroll_wrap ihpone_c nc">
+                            <div id="canvas" class="scroll_cont" style="height: auto;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/vstatic/js/manifest.js?v=1685949963"></script>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/vstatic/js/vendor.js?v=1685949963"></script>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/vstatic/js/app.js?v=1685949963"></script>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/common.js"></script>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/elementui/index.js"></script>
+        <script type="text/javascript" src="https://static.eznetonline.com/webquick/public/bootstrap/index.js"></script>
+    </body>
+</html>
